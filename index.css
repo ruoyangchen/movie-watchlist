@@ -1,6 +1,7 @@
 html, body {
     margin: auto; 
     background-color: whitesmoke;
+    font-family: 'Inter', sans-serif;
 }
 .overall-container{
     width: 100%;
