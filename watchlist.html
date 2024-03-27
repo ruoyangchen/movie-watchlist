@@ -1,0 +1,37 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/451926ea97.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="overall-container">
+            <header>
+                <h1>My Watchlist</h1>
+                <a href="index.html">Add movies</a>
+            </header>
+            
+            <div class="movie-container" id="movie-container">
+                
+                <div class="list-empty-state hidden" id="list-empty-state">
+                    <div class="empty-state-container">
+                        <p class="msg">Your watchlist is looking a little empty...</p>
+                        <a class="add-movies" href="index.html">
+                            <i class="fa-solid fa-circle-plus"></i>
+                            <p>Let's add some movies!</p>
+                        </a>
+                    </div>        
+                </div>
+                
+                <div class="list-state" id="list-state">
+                      <!-- movie cards here -->
+                </div>
+              
+            </div>
+                 
+        </div>
+        <script src="watchlist.js"></script>
+    </body>
+</html>
