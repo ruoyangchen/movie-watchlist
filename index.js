@@ -29,7 +29,7 @@ async function handleClick(){
     const response = await fetch(`https://www.omdbapi.com/?apikey=e699b1ed&s=${inputValue}`)
     const data = await response.json() 
     const movieArray = data.Search
-    newMovieArray.length = []
+    newMovieArray.length = 0
 
     if(data.Response ==="True"){
         for(let movie of movieArray){
@@ -54,7 +54,7 @@ function hideInitialState(){
 }
 
 function renderMovies(){ 
-    document.getElementById("movie-container").innerHTML = ""
+    movieListHtml.length = 0
     for(let movie of newMovieArray){
         movieListHtml.push(
          `   <div class="movie-card">

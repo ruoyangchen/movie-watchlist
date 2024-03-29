@@ -43,9 +43,10 @@ let myList = JSON.parse(localStorage.getItem("myList")) || [];
 
 ***update 240329
 fix bug: every new search is being appended to the previous search
-
+*newMovieArray and HTML has to be cleared.
 
 ***TO DO***
-responsive design update
-read more button
-code review from someone
+-responsive design update
+-read more button
+-code review from someone
+-enter key down(maybe)
