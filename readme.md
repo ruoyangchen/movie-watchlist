@@ -1,4 +1,5 @@
 challenges and solution log
+***INITIAL***
 
 1/ how to get the right information to display.
 *research the API and figure out what the request needs to be.
@@ -39,6 +40,10 @@ let myList = JSON.parse(localStorage.getItem("myList")) || [];
 
 13/display :flex is overriding display: none
 *added another div
+
+***update 240329
+fix bug: every new search is being appended to the previous search
+
 
 ***TO DO***
 responsive design update
