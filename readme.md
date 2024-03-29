@@ -53,3 +53,4 @@ fix bug: no data-state doesn't work
 -read more button
 -code review from someone
 -enter key down(maybe)
+-show counts in mylist
