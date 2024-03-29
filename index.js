@@ -40,8 +40,11 @@ async function handleClick(){
         hideInitialState()
         renderMovies()
     }else{
-        hideInitialState()
-        showNoDataMsg()
+        document.getElementById("movie-container").innerHTML = 
+                `<div class="no-data-state" id="no-data-state">
+                <p>Unable to find what you’re looking for. Please try another search.</p>
+                </div>`
+        
     }
     
 }

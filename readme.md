@@ -45,6 +45,9 @@ let myList = JSON.parse(localStorage.getItem("myList")) || [];
 fix bug: every new search is being appended to the previous search
 *newMovieArray and HTML has to be cleared.
 
+fix bug: no data-state doesn't work
+
+
 ***TO DO***
 -responsive design update
 -read more button
